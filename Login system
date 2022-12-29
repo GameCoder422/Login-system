@@ -1,6 +1,8 @@
+#Change line 5 and 8 to make your own passwords
+
 password=None
 attempts=[]
-while password !="chewbacca":
+while password !="YOUR PASSWORD":
     password = input("Enter the password:")
     attempts.append(password)
     if password !="chewbacca":
